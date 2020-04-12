@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     # Python REST Api framework
     'rest_framework',
     # Bio Apps
+    'protect.apps.ProtectConfig',
 ]
 
 MIDDLEWARE = [
