@@ -1,7 +1,8 @@
 ## Intro
-
+<p align="center">
 <img src="demo_2.jpg" width="40%" style="margin-right: 5px"/> 
 <img src="demo_1.jpg" width="40%"/>
+</p>
 
 ## Dependencies
 
@@ -31,5 +32,6 @@ Python3, flask, tensorflow 1.0, numpy, opencv 3.
 
 ## Weights (가중치)
 
-**Android demo on Tensorflow's** [here](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/android/src/org/tensorflow/demo/TensorFlowYoloDetector.java)
+**YOLO Detection Weights of our project** [here](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/android/src/org/tensorflow/demo/TensorFlowYoloDetector.java)
 
+위 링크에서 다운로드 받은 파일을 ckpt 디렉토리 안에 압축 해제해 주세요.
