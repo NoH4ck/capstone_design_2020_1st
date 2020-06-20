@@ -1,0 +1,6 @@
+model_checkpoint_path: "fingertip-yolo-175830"
+all_model_checkpoint_paths: "fingertip-yolo-175790"
+all_model_checkpoint_paths: "fingertip-yolo-175800"
+all_model_checkpoint_paths: "fingertip-yolo-175810"
+all_model_checkpoint_paths: "fingertip-yolo-175820"
+all_model_checkpoint_paths: "fingertip-yolo-175830"
