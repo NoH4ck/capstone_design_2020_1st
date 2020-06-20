@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>Complate</title>
+    </head>
+    <body>
+        <!-- <img src="{{url_for('static', filename=image_name)}}"> -->
+        {% for image_name in image_name %}
+            <img src="{{url_for('static', filename=image_name)}}"><br>
+        {% endfor %}
+    </body>
+</html>

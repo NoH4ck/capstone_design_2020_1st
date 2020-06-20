@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+
+    <title>Selfie : Capstone Design</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        function loading(){
+            var loader = $("div.loader");
+            var container = $("div#wrapper");
+            loader.css("display", "block");
+            container.css("display", "none");
+        };
+    </script>
+</head>
+
+<body>
+    <div class="loader"></div>
+    <div id="wrapper">
+        <div id="header">
+            <p class="title">사진 보안 프로그램</p>
+            <hr color="cornflowerblue" size="5px">
+            <img id="logo" src="{{ url_for('static', filename='img/logo.png') }}">
+        </div>
+
+        <div id="content">
+            <label for="upload_file">Select</label>
+            <label for="submit_file">Upload</label>
+
+            <form action="http://125.133.127.22:5000/upload" enctype="multipart/form-data" method="POST">
+                <input type="file" name="file" id="upload_file" multiple="multiple">
+                <input type="submit" id="submit_file" onclick="loading();">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
