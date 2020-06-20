@@ -1,8 +1,8 @@
 ## Intro
 
 <p align="center"> 
-<img src="demo_1.jpg" width="40%"/> 
-<img src="demo_2.jpg" width="40%"/>
+<img src="demo_2.jpg" width="40%" style="margin-right: 5px"/> 
+<img src="demo_1.jpg" width="40%"/>
 </p>
 
 ## Dependencies
@@ -24,6 +24,12 @@ Python3, flask, tensorflow 1.0, numpy, opencv 3.
 	python app.py
     ```
 
+3. 서버 접속 (using WEB)
+	```
+	http://localhost:5000
+	```
+
+	<img src="demo_3.png"/>
 ## Update
 
 **Android demo on Tensorflow's** [here](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/android/src/org/tensorflow/demo/TensorFlowYoloDetector.java)
