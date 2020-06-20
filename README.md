@@ -1,9 +1,7 @@
 ## Intro
 
-<p align="center"> 
 <img src="demo_2.jpg" width="40%" style="margin-right: 5px"/> 
 <img src="demo_1.jpg" width="40%"/>
-</p>
 
 ## Dependencies
 
@@ -29,7 +27,7 @@ Python3, flask, tensorflow 1.0, numpy, opencv 3.
 	http://localhost:5000
 	```
 
-	<img src="demo_3.png"/>
+	<img src="demo_3.png" width="50%"/>
 
 ## Weights (가중치)
 
