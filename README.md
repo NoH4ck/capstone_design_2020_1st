@@ -6,22 +6,9 @@
 
 Python3, flask, tensorflow 1.0, numpy, opencv 3.
 
-## Citation
-
-```
-@article{trieu2018darkflow,
-  title={Darkflow},
-  author={Trieu, Trinh Hoang},
-  journal={GitHub Repository. Available online: https://github. com/thtrieu/darkflow (accessed on 14 February 2019)},
-  year={2018}
-}
-```
-
 ### Getting started
 
-You can choose _one_ of the following three ways to get started with darkflow.
-
-1. Just build the Cython extensions in place. NOTE: If installing this way you will have to use `./flow` in the cloned darkflow directory instead of `flow` as darkflow is not installed globally.
+1. 파이썬3 설치와 함께 관련 라이브러리 모두 설치.
     ```
     python3 setup.py build_ext --inplace
     ```
