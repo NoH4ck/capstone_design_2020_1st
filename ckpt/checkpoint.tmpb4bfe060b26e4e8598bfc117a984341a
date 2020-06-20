@@ -1,0 +1,2 @@
+model_checkpoint_path: "pupils_yolo-10"
+all_model_checkpoint_paths: "pupils_yolo-10"
