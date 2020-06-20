@@ -1,10 +1,10 @@
 ## Intro
 
-<p align="center"> <img src="demo.jpg"/> </p>
+<p align="center"> <img src="demo.jpg" width="70%"/> </p>
 
 ## Dependencies
 
-Python3, tensorflow 1.0, numpy, opencv 3.
+Python3, flask, tensorflow 1.0, numpy, opencv 3.
 
 ## Citation
 
