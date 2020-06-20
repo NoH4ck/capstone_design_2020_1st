@@ -1,6 +1,9 @@
 ## Intro
 
-<p align="center"> <img src="demo.jpg" width="70%"/> </p>
+<p align="center"> 
+<img src="demo_1.jpg" width="50%"/> 
+<img src="demo_2.jpg" width="50%"/>
+</p>
 
 ## Dependencies
 
