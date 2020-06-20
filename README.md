@@ -32,6 +32,6 @@ Python3, flask, tensorflow 1.0, numpy, opencv 3.
 
 ## Weights (가중치)
 
-**YOLO Detection Weights of our project** [here](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/android/src/org/tensorflow/demo/TensorFlowYoloDetector.java)
+**YOLO Detection Weights of our project** [here](https://drive.google.com/file/d/18F95rTaLnddVXQ-IKLxW_TcJO_kphBtY/view?usp=sharing)
 
 위 링크에서 다운로드 받은 파일을 ckpt 디렉토리 안에 압축 해제해 주세요.
