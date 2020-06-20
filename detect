@@ -1,0 +1,15 @@
+#! /usr/bin/env python
+from darkflow.cli import cliHandler
+
+def hi():
+    print('테스트 입니다ㅋ')
+# Object Detection
+'''
+detect_arg = [
+    'flow', '--imgdir', '../data/testset_fingertip/',
+    '--model', './cfg/fingertip-yolo.cfg', '--load', '-1', '--batch', '1',
+    '--threshold', '0.8'
+]
+
+cliHandler(detect_arg)
+'''
