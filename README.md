@@ -8,19 +8,17 @@ Python3, flask, tensorflow 1.0, numpy, opencv 3.
 
 ### Getting started
 
-1. 파이썬3 설치와 함께 관련 라이브러리 모두 설치.
+1. 파이썬3 설치와 함께 관련 라이브러리 모두 설치
     ```
-    python3 setup.py build_ext --inplace
-    ```
-
-2. Let pip install darkflow globally in dev mode (still globally accessible, but changes to the code immediately take effect)
-    ```
-    pip install -e .
+    pip install flask
+	pip install tensorflow
+	pip install numpy
+	pip install opencv
     ```
 
-3. Install with pip globally
+2. 서비스 동작을 위한 서버 실행
     ```
-    pip install .
+	python app.py
     ```
 
 ## Update
